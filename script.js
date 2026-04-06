@@ -1,4 +1,4 @@
-// Fungsi untuk memunculkan elemen saat di-scroll
+// Untuk memunculkan elemen
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
 
@@ -16,8 +16,6 @@ function reveal() {
     }
 }
 
-// Menambahkan event listener pada scroll
 window.addEventListener("scroll", reveal);
 
-// Memanggil fungsi sekali saat halaman pertama kali dimuat
 reveal();
