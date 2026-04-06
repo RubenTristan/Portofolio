@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
-/* Reset & Base */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Mengaktifkan Scroll Halus */
 html {
     scroll-behavior: smooth;
 }
@@ -24,7 +22,7 @@ body {
     margin-top: 0; 
 }
 
-/* Struktur Umum Section */
+/* Section */
 .full-section {
     display: flex;
     justify-content: center;
@@ -32,7 +30,7 @@ body {
     padding: 4rem 2rem; 
 }
 
-/* Container untuk menjaga lebar konten rapi */
+/* Container */
 .container-content {
     width: 100%;
     max-width: 900px;
@@ -60,7 +58,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* Penyesuaian khusus untuk teks deskripsi yang panjang */
 .hero-content p.about-text {
     font-size: 16px;
     color: #94a3b8;
@@ -69,7 +66,7 @@ body {
     line-height: 1.8;
 }
 
-/* Judul setiap section */
+/* Judul section*/
 .section-title {
     font-size: 36px;
     font-weight: 800;
@@ -81,7 +78,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-/* Cards Style (Modern Glassmorphism) */
 .card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
